@@ -1,0 +1,13 @@
+{"_id":{"$oid":"69015cd681aa33f02acebeb1"},"ID":1,"brandID":1,"catID":1,"name":"Adam T7V","price":204.83,"features":["7\" 50W Woofer","1.9\" 20W Tweeter"]}
+{"_id":{"$oid":"69015d4f81aa33f02acebeb2"},"ID":2,"brandID":1,"catID":1,"name":"Adam T10s","price":407.53,"features":["10\" 130W Subwoofer"]}
+{"_id":{"$oid":"6901636c81aa33f02acebeb3"},"ID":3,"brandID":2,"catID":1,"name":"Yamaha HS7","price":261,"features":["7.5\" 50W Woofer","1\" Tweeter"]}
+{"_id":{"$oid":"6901648481aa33f02acebeb4"},"ID":4,"brandID":2,"catID":1,"name":"Yamaha HS8S","price":595,"features":["8\" 150W Subwoofer"]}
+{"_id":{"$oid":"6901654681aa33f02acebeb5"},"ID":5,"brandID":3,"catID":2,"name":"Behringer HPS5000","price":12.3,"features":["Široki frekvencijski i dinamički raspon"]}
+{"_id":{"$oid":"6901659781aa33f02acebeb6"},"ID":6,"brandID":3,"catID":2,"name":"Behringer HPS3000","price":10.28,"features":["3.5mm priključak plus 6.3mm adapter"]}
+{"_id":{"$oid":"6901660681aa33f02acebeb7"},"ID":7,"brandID":2,"catID":2,"name":"Yamaha HPH-MT5W","price":104.92,"features":["full-range 40mm neodimium dinamički driveri"]}
+{"_id":{"$oid":"690166b881aa33f02acebeb8"},"ID":8,"brandID":2,"catID":2,"name":"Yamaha HPH-MT7","price":225.25,"features":["CCAW zvučnici","1/4\" adapter"]}
+{"_id":{"$oid":"6901672a81aa33f02acebeb9"},"ID":9,"brandID":4,"catID":2,"name":"Beyerdynamic DT 900 PRO X","price":246.54,"features":["Otvoreni cirkumauralni dizajn","odvojivi kabel","STELLAR45 dirveri"]}
+{"_id":{"$oid":"6901679c81aa33f02acebeba"},"ID":10,"brandID":4,"catID":2,"name":"Beyerdynamic DT 990 PRO 80 Ohm","price":168.22,"features":["Otvoreni cirkumauralni dizajn","otpor od 80 Ohma","zaštitna torba"]}
+{"_id":{"$oid":"6901680481aa33f02acebebb"},"ID":11,"brandID":3,"catID":3,"name":"Behringer BU-200","price":102.89,"features":["kondenzatorski mikrofon","niski šum"]}
+{"_id":{"$oid":"6901687981aa33f02acebebc"},"ID":12,"brandID":5,"catID":3,"name":"Shure SM58S","price":130.06,"features":["dinamički mikrofon","ugrađeni prekidač","lulica","kožna torbica"]}
+{"_id":{"$oid":"690168f381aa33f02acebebd"},"ID":13,"brandID":3,"catID":3,"name":"Behringer BA 85A","price":20.87,"features":["dinamički mikrofon","transparentni zvuk","jaki izlazni signal"]}
