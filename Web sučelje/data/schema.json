@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.org/audio-shop-products.schema.json",
+  "title": "Audio shop proizvodi",
+  "description": "Popis proizvoda u trgovini audio opremom",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "brand",
+      "category",
+      "price",
+      "features"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "title": "ID proizvoda",
+        "description": "Jedinstveni identifikator proizvoda"
+      },
+      "name": {
+        "type": "string",
+        "title": "Naziv proizvoda",
+        "description": "Naziv proizvoda"
+      },
+      "brand": {
+        "type": "string",
+        "title": "Brend",
+        "description": "Naziv proizvođača"
+      },
+      "category": {
+        "type": "string",
+        "title": "Kategorija",
+        "description": "Kategorija proizvoda"
+      },
+      "price": {
+        "type": "number",
+        "title": "Cijena",
+        "description": "Maloprodajna cijena u eurima",
+        "minimum": 0
+      },
+      "features": {
+        "type": "string",
+        "title": "Značajke",
+        "description": "Opis ili popis značajki proizvoda"
+      }
+    }
+  }
+}

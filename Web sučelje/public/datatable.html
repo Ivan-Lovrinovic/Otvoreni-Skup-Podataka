@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tablični prikaz</title>
+</head>
+<body>
+  <h2>Pretraga</h2>
+
+  <input id="query" placeholder="Unesite vrijednost">
+  <select id="field">
+  <option value="">Sve</option>
+  <option value="name">Naziv</option>
+  <option value="brand">Brend</option>
+  <option value="category">Kategorija</option>
+</select>
+  <button onclick="load()">Pretraži</button>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Naziv</th>
+      <th>Brend</th>
+      <th>Kategorija</th>
+      <th>Cijena (€)</th>
+      <th>Značajke</th>
+    </tr>
+  </thead>
+  <tbody id="tbody"></tbody>
+</table>
+
+  <br>
+  <a href="/api/download/json">Preuzmi JSON</a> |
+  <a href="/api/download/csv">Preuzmi CSV</a>
+
+  <script>
+  console.log("datatable loaded");
+</script>
+  <script src="/app.js"></script>
+</body>
+</html>
